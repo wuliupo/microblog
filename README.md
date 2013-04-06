@@ -9,9 +9,9 @@
 
 ###如何使用
 
-* 安装 c:\nodejs，加入 系统 path
-* 安装 c:\mongodb，加入 系统 path
-* clone 代码 D:\microblog，git clone https://github.com/wuliupo/microblog.git
+* 安装 D:\dev\nodejs，加入 系统 path
+* 安装 D:\dev\mongodb，加入 系统 path
+* clone 代码 D:\dev\microblog，git clone https://github.com/wuliupo/microblog.git
 * 在代码目录下运行命令：npm install
 * 在代码目录下运行命令：mongod.exe --dbpath .
 * 继续运行命令：node app
