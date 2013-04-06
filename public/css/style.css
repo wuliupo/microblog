@@ -1,0 +1,43 @@
+body {
+  padding: 60px 50px 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position:relative;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.content {
+	white-space: nowrap; 
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	word-break: break-all; 
+	border: 1px solid #F5F5F5;
+	background-color: #F5F5F5;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.rm.close {
+  position: relative;
+  top: 5px;
+  right: 20px;
+  line-height: 20px;
+}
+
+.more-content .span4 {
+	width: 370px;
+	margin: 10px;
+	height: 190px;
+}
+.more-content .well {
+	height: 140px;
+	overflow:hidden;
+}
+
+.msg {position:absolute; right:10px; bottom:10px; width:200px; z-index:1031}
+.modal-body legend {display:none;}
+.form-actions .btn{margin-left:30px;}
+.form-actions span.btn{display:none;}
+.modal .form-actions span.btn {display:inline-block;}

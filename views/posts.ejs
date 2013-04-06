@@ -1,0 +1,7 @@
+<% if (posts.length > 0) { %>
+<div class="container more-content">
+<% posts.forEach(function(post, index) { %>
+    <%- partial('post', {post:post}) %>
+<% }) %>
+</div>
+<% } %>
